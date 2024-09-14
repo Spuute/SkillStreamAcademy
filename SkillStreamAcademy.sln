@@ -7,6 +7,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{3128
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{C3712F59-B9E5-4566-B03C-B4F49271A30E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillShareAcademy.Api", "SkillShareAcademy.Api\SkillShareAcademy.Api.csproj", "{0D4E9FBA-49FD-428B-B4BF-20EA4717437B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillShareAcademy.Domain", "SkillShareAcademy.Domain\SkillShareAcademy.Domain.csproj", "{456727E3-AA54-4707-8465-BE160CDA9598}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillShareAcademy.Application", "SkillShareAcademy.Application\SkillShareAcademy.Application.csproj", "{526A67FD-F7E8-4F11-93D2-E86DD3417B84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillShareAcademy.Infrastructure", "SkillShareAcademy.Infrastructure\SkillShareAcademy.Infrastructure.csproj", "{9ABABC15-E54D-4574-BF89-27CAA5E75122}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,5 +22,29 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D4E9FBA-49FD-428B-B4BF-20EA4717437B} = {31283BE5-C4F1-4EE4-9DF4-22E0DD9CD9D0}
+		{456727E3-AA54-4707-8465-BE160CDA9598} = {31283BE5-C4F1-4EE4-9DF4-22E0DD9CD9D0}
+		{526A67FD-F7E8-4F11-93D2-E86DD3417B84} = {31283BE5-C4F1-4EE4-9DF4-22E0DD9CD9D0}
+		{9ABABC15-E54D-4574-BF89-27CAA5E75122} = {31283BE5-C4F1-4EE4-9DF4-22E0DD9CD9D0}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D4E9FBA-49FD-428B-B4BF-20EA4717437B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D4E9FBA-49FD-428B-B4BF-20EA4717437B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D4E9FBA-49FD-428B-B4BF-20EA4717437B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D4E9FBA-49FD-428B-B4BF-20EA4717437B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{456727E3-AA54-4707-8465-BE160CDA9598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{456727E3-AA54-4707-8465-BE160CDA9598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{456727E3-AA54-4707-8465-BE160CDA9598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{456727E3-AA54-4707-8465-BE160CDA9598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{526A67FD-F7E8-4F11-93D2-E86DD3417B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{526A67FD-F7E8-4F11-93D2-E86DD3417B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{526A67FD-F7E8-4F11-93D2-E86DD3417B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{526A67FD-F7E8-4F11-93D2-E86DD3417B84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ABABC15-E54D-4574-BF89-27CAA5E75122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ABABC15-E54D-4574-BF89-27CAA5E75122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ABABC15-E54D-4574-BF89-27CAA5E75122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ABABC15-E54D-4574-BF89-27CAA5E75122}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
