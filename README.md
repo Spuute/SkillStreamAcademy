@@ -1,4 +1,4 @@
-## SkillStream Institute
+## SkillStream Academy
 
 SkillStream Institute är en avancerad utbildningsplattform för systemutveckling, designad för att ge professionella och studenter en djupgående förståelse för moderna teknologier och metoder inom programvaruutveckling. Vår plattform erbjuder en omfattande och strukturerad kursportfölj som täcker allt från grundläggande kodning till avancerade systemdesignprinciper. Plattformen är byggd med en stark arkitektonisk grund som kombinerar **Clean Architecture** med **Domain-Driven Design (DDD)** för att säkerställa hållbarhet, skalbarhet och domänspecifik precision.
 
